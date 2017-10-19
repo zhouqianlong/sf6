@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+           android:id="@+id/Read1"
+            android:text="读传感器名称0300800004"
+            android:textSize="15dip" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+           android:id="@+id/Read2"
+            android:text="读传感器唯一序列号0300860004"
+            android:textSize="15dip" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+           android:id="@+id/Read3"
+            android:text="读传感器当前状态信息0300900001"
+            android:textSize="15dip" />
+
+        <Button
+            android:id="@+id/Read4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="读传感器软件版本0300840002"
+            android:textSize="15dip" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+           android:id="@+id/Read5"
+            android:text="读传感器气体浓度03000A0001"
+            android:textSize="15dip" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+           android:id="@+id/Read6"
+            android:text="读传感器气体浓度的设定值0300050001"
+            android:textSize="15dip" />
+    </LinearLayout>
+
+</RelativeLayout>

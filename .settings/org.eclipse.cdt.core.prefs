@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.631613155/CWD/delimiter=;
+environment/project/com.android.toolchain.gcc.631613155/CWD/operation=replace
+environment/project/com.android.toolchain.gcc.631613155/CWD/value=D\:\\xiazai\\TK\\\u516D\u6C1F\u5316\u786B
+environment/project/com.android.toolchain.gcc.631613155/CYGWIN/delimiter=;
+environment/project/com.android.toolchain.gcc.631613155/CYGWIN/operation=replace
+environment/project/com.android.toolchain.gcc.631613155/CYGWIN/value=nodosfilewarning
+environment/project/com.android.toolchain.gcc.631613155/NDKROOT/delimiter=;
+environment/project/com.android.toolchain.gcc.631613155/NDKROOT/operation=append
+environment/project/com.android.toolchain.gcc.631613155/NDKROOT/value=F\:\\android_ndk\\android-ndk-r9d
+environment/project/com.android.toolchain.gcc.631613155/PWD/delimiter=;
+environment/project/com.android.toolchain.gcc.631613155/PWD/operation=replace
+environment/project/com.android.toolchain.gcc.631613155/PWD/value=D\:\\xiazai\\TK\\\u516D\u6C1F\u5316\u786B
+environment/project/com.android.toolchain.gcc.631613155/append=true
+environment/project/com.android.toolchain.gcc.631613155/appendContributed=true

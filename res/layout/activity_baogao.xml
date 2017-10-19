@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/il_title"
+        layout="@layout/title_top" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ts_baogao_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.巷道名称：" />
+
+        <TextView
+            android:id="@+id/tv_baogao_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ts_baogao_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\t支护形式：" />
+
+        <TextView
+            android:id="@+id/tv_baogao_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ts_baogao_mianji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\t巷道面积：" />
+
+        <TextView
+            android:id="@+id/tv_baogao_mianji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ts_road_shap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\t巷道形状：" />
+
+        <TextView
+            android:id="@+id/tv_road_shap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ts_liuliang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\t预估SF6气体释放流量：" />
+
+        <TextView
+            android:id="@+id/tv_liuliang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ts_baogao_loufen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.漏风方式：" />
+
+        <TextView
+            android:id="@+id/tv_baogao_loufen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ts_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.示意图：如下图" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="检测点序号" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SF6浓度" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/white" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_more_gas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_lfv"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="请勾选第一个检测点" />
+
+        <TextView
+            android:id="@+id/tv_lfl"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ts_windSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.风速：" />
+
+        <TextView
+            android:id="@+id/tv_windSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ts_hole_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.释放点、漏风点、测试点任意两点最小距离(m)："
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_hole_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/tv_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:src="@drawable/continuousnegativepressure" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ts_baogao_people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="检测人员：" />
+
+        <TextView
+            android:id="@+id/tv_baogao_people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ts_baogao_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="检测日期：" />
+
+        <TextView
+            android:id="@+id/tv_baogao_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXXX年xx月xx日" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="返回" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="删除" />
+
+        <Button
+            android:id="@+id/btn_pdf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="生成PDF" />
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="重新勾选" />
+    </LinearLayout>
+
+</LinearLayout>

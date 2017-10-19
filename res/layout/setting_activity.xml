@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_biaoding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector_disabled_holo_dark"
+        android:drawableLeft="@drawable/ic_menu_login"
+        android:drawableRight="@drawable/ic_go"
+        android:gravity="center_vertical"
+        android:text="标定传感器"
+        android:textSize="20dp" />
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="@android:color/white" />
+    <TextView
+        android:id="@+id/tv_timesett"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector_disabled_holo_dark"
+        android:drawableLeft="@android:drawable/ic_menu_recent_history"
+        android:drawableRight="@drawable/ic_go"
+        android:gravity="center_vertical"
+        android:text="设置测试时长"
+        android:textSize="20dp" />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="@android:color/white" />
+    <TextView
+        android:id="@+id/tv_chancun"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector_disabled_holo_dark"
+        android:drawableLeft="@android:drawable/ic_menu_sort_by_size"
+        android:drawableRight="@drawable/ic_go"
+        android:gravity="center_vertical"
+        android:text="设置残存余量"
+        android:textSize="20dp" />
+ 
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector_disabled_holo_dark"
+        android:drawableLeft="@drawable/ic_menu_info_details"
+        android:gravity="center_vertical"
+        android:text="软件版本"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector_disabled_holo_dark"
+        android:drawableLeft="@drawable/ic_menu_allfriends"
+        android:gravity="center_vertical"
+        android:text="关于"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_flag"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:id="@+id/tv_address"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_selector_disabled_holo_dark"
+            android:drawableLeft="@drawable/perm_group_personal_info"
+            android:drawableRight="@drawable/ic_go"
+            android:gravity="center_vertical"
+            android:text="设置传感器地址"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_data"
+            android:background="@drawable/list_selector_disabled_holo_dark"
+            android:drawableLeft="@drawable/ic_menu_refresh"
+            android:drawableRight="@drawable/ic_go"
+            android:gravity="center_vertical"
+            android:text="设置购买时间"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:background="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

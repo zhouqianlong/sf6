@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/title_top" android:id="@+id/il_title"/>
+    <TextView
+        android:id="@+id/tv_file_list_nothing_to_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="没有可显示的报告"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lv_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+              >
+        </ListView>
+    </LinearLayout>
+
+</FrameLayout>
